@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Lottery</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .lotterybox{
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lotterybox"></div>
+    
+    <!-- Zepto or jQuery -->
+    <script src="src/zepto.min.js"></script>
+
+    <link rel="stylesheet" href="./dist/lottery.min.css" />
+    <script src="./dist/lottery.compact.min.js"></script>
+    <audio id="play1">
+            <source src="music/F-777%20-%20Dance%20of%20The%20Violins.mp3"></source>
+        </audio>
+        <audio id="play2">
+            <source src="music/Peter%20McIsaac%20Music%20-%20Feather.mp3"></source>
+        </audio>
+    <!-- ROCK ON -->
+    <script>
+            $.lottery({
+                el: '.lotterybox',
+                api: './sample-data.json',
+                once: true,
+                subtitle: "company",
+                desc: "title",
+                timeout: 20,
+                number: 3
+            });
+    </script>
+
+</body>
+
+</html>
