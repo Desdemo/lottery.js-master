@@ -118,8 +118,36 @@
     $('#dh-lottery-winner .dh-modal-close').click(function() {
       var audio1 = document.getElementById("bgMusic1");
       var audio2 = document.getElementById("bgMusic2");
+      var audio3 = document.getElementById("bgMusic3");
+      var pal = [audio1,audio3,audio2];
+
       audio1.pause();
-      audio2.play();
+      // // audio2.play();
+      // pal[2].play();
+      // pal[2].addEventListener('ended', function () {
+      //   pal[1].play();
+      // }, false);
+
+
+
+
+      var audio = document.createElement("audio");
+          audio.loop = false;//取消单曲循环即可：
+          audio.addEventListener('ended', function () {
+          alert('over'); //行了
+          }, false);
+      //
+      // while (1){
+      //   var i = 0;
+      //   pal[i] =
+      //   pal[i].addEventListener('ended', function(){
+      //                 alert("ended");
+      //                 i ++;
+      //             }, false);
+      // }
+
+
+
       return $('#dh-lottery-winner').removeClass('is-active');
     });
     $('#dh-lottery-history .dh-modal-close').click(function() {
@@ -305,7 +333,8 @@
       }
 
       var profileName = cardTitle || winnerProfile['name']
-      var profileSubtitle = cardSubTitle || winnerProfile['company']
+      // var profileSubtitle = cardSubTitle || winnerProfile['company']
+      var profileSubtitle = cardSubTitle || winnerProfile['department']
       var profileDesc = cardDesc || ""
 
       if (winnerProfile['avatar']) {

@@ -26,16 +26,18 @@
 -->
     <!-- <script src="./dist/lottery.compact.min.js"></script> -->
 
-    <audio id="bgMusic"  controls="controls" >
-        <source   src="music/F-777%20-%20Dance%20of%20The%20Violins.mp3" type="audio/mp3">
+    <audio id="bgMusic"   >
+        <source   src="music/群星 - FC《超级玛丽》地上关BGM.mp3" type="audio/mp3">
     </audio>
-    <audio id="bgMusic1"  controls="controls" >
+    <audio id="bgMusic1"   >
         <source   src="music/Peter%20McIsaac%20Music%20-%20Feather.mp3" type="audio/mp3">
     </audio>
-    <audio id="bgMusic2"  autoplay="autoplay" controls="controls" >
-        <source   src="music/K-391%20-%20Summertime.mp3" type="audio/mp3">
+    <audio id="bgMusic2"   autoplay="autoplay"  >
+        <source   src="music/1.mp3" type="audio/mp3">
     </audio>
-
+    <audio id="bgMusic3"    >
+        <source   src="music/Peter%20McIsaac%20Music%20-%20Feather.mp3" type="audio/mp3">
+    </audio>
     <script src="./vendor/confetti.js"></script>
     <script src="./vendor/move.min.js"></script>
     <script src="./vendor/material-avatar.js"></script>
@@ -46,13 +48,15 @@
     <script>
       $.lottery({
         el: '.lotterybox',
-        api: './sample-data.json',
+        // api: './sample-data.json',
+        api: './json_data/tb.json',
         once: true,
         title: "name",
-        subtitle: "company",
-        desc: "title",
+        // subtitle: "company",
+        subtitle: "department",
+        // desc: "title",
         timeout: 0,
-        speed: 300,
+        speed: 500,
         number: 3
       });
 

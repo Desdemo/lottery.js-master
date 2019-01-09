@@ -1,7 +1,7 @@
 [
     {
         "name": "东东",
-        "avatar": "./photo/1.jpg",
+        "avatar": "./photo/东东.jpg",
         "data": {
             "company": "腾讯",
             "title": "董事长"
@@ -9,7 +9,7 @@
     },
     {
         "name": "结界",
-        "avatar": "./photo/2.jpg",
+        "avatar": "./photo/77777.jpg",
         "data": {
             "company": "百度",
             "title": "后端开发工程师"
@@ -17,7 +17,7 @@
     },
     {
         "name": "桃总",
-        "avatar": "./photo/3.jpg",
+        "avatar": "./photo/15.jpg",
         "data": {
             "company": "复仇者联盟",
             "title": "美国队长"
@@ -81,7 +81,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
@@ -89,7 +89,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
@@ -97,7 +97,7 @@
     },
       {
         "name": "东东",
-        "avatar": "./photo/1.jpg",
+        "avatar": "./photo/东东.jpg",
         "data": {
             "company": "腾讯",
             "title": "董事长"
@@ -177,7 +177,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
@@ -185,7 +185,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
@@ -194,7 +194,7 @@
 
       {
         "name": "东东",
-        "avatar": "./photo/1.jpg",
+        "avatar": "./photo/东东.jpg",
         "data": {
             "company": "腾讯",
             "title": "董事长"
@@ -274,7 +274,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
@@ -282,7 +282,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
@@ -291,7 +291,7 @@
 
       {
         "name": "东东",
-        "avatar": "./photo/1.jpg",
+        "avatar": "./photo/东东.jpg",
         "data": {
             "company": "腾讯",
             "title": "董事长"
@@ -371,7 +371,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
@@ -379,7 +379,7 @@
     },
     {
         "name": "张伟",
-        "avatar": "./photo/11.jpg",
+        "avatar": "./photo/1东东.jpg",
         "data": {
             "company": "Naver",
             "title": "Engineer"
