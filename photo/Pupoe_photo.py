@@ -32,6 +32,7 @@ for i in b:
       #  photo_data = json.JSONEncoder(ensure_ascii=False).encode(photo_data)
       datas.append(photo_data)
       random.shuffle(datas)  # 生成随机列表
+    print(datas)
     with open('../json_data/{0}.json'.format(a), 'w') as f:  # 写入JSON文件
       json.dump(datas, f)
       # json.dump(datas, f, ensure_ascii=False)

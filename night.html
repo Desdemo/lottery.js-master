@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Lottery</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .lotterybox{
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lotterybox"></div>
+
+    <!-- Zepto or jQuery -->
+    <script src="./src/zepto.min.js"></script>
+<!--
+    <link rel="stylesheet" href="./dist/lottery.min.css" />
+    <script src="./dist/lottery.compact.min.js.1"></script>
+-->
+    <!-- <script src="./dist/lottery.compact.min.js"></script> -->
+
+    <audio id="bgMusic"   >
+        <source   src="music/群星 - FC《超级玛丽》地上关BGM.mp3" type="audio/mp3">
+    </audio>
+    <audio id="bgMusic1"   >
+        <source   src="music/Peter%20McIsaac%20Music%20-%20Feather.mp3" type="audio/mp3">
+    </audio>
+    <audio id="bgMusic2"   autoplay="autoplay"  >
+        <source   src="music/1.mp3" type="audio/mp3">
+    </audio>
+    <audio id="bgMusic3"    >
+        <source   src="music/Peter%20McIsaac%20Music%20-%20Feather.mp3" type="audio/mp3">
+    </audio>
+    <script src="./vendor/confetti.js"></script>
+    <script src="./vendor/move.min.js"></script>
+    <script src="./vendor/material-avatar.js"></script>
+    <script src="./src/lottery.js"></script>
+    <link rel="stylesheet" href="./src/lottery.css" />
+
+    <!-- ROCK ON -->
+    <script>
+      $.lottery({
+        el: '.lotterybox',
+        // api: './sample-data.json',
+        api: './json_data/tb.json',
+        once: true,
+        title: "name",
+        // subtitle: "company",
+        subtitle: "department",
+        // desc: "title",
+        timeout: 0,
+        speed: 500,
+        number: 3,
+        showbtn: false
+      });
+
+    </script>
+
+</body>
+
+</html>

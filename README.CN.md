@@ -98,6 +98,7 @@ number | 一次抽出多少名中奖 | 1 | int
     $.lottery('history', 'show');
     $.lottery('history', 'get');
     $.lottery('history', 'clean');
+    $.lottery({number : 3});
 ```
 
  参数 | 说明 | 返回
@@ -110,6 +111,7 @@ winners, clean | 清空已中奖用户信息（将已中奖者放回奖池） | 
 history, show | 显示抽奖历史 | true
 history, get | 获取抽奖历史 | Object，抽奖历史
 history, clean | 清空抽奖历史 | true
+number | 调整人数  | true
 
 **中奖用户会在刷新页面后清空，抽奖历史会被储存在LocalStorage中不会被清空**
 
